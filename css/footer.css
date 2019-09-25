@@ -1,0 +1,39 @@
+.page-footer{
+  height: 250px;
+  background: #2E2F55;
+}
+.footer-content{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px 0 33px;
+}
+.footer-content .logo-section{
+  line-height: 30px;
+  font-size: 16px;
+  color: #FEFEFE;
+  font-family: monospace;
+  letter-spacing: 1px;
+}
+.footer-content .contact-section{
+  display: flex;
+  flex-direction:column;
+  line-height: 35px;
+  padding-left: 335px;
+}
+.footer-content .contact-section a{
+  text-decoration: none;
+  color: #FEFEFE;
+}
+.footer-info{
+  text-align: center;
+  height: 65px;
+  line-height: 65px;
+  border-top: 2px solid #999;
+}
+.footer-info a{
+  color: #999;
+  text-decoration: none;
+  padding: 0 10px;
+}

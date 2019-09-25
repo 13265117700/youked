@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  min-width: 1400px;
+}
+
+.page-header{
+  height: 80px;
+  border-bottom: 1px solid rgba(179, 179, 179, 0.6);
+}
+.page-header .header-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 80px;
+}
+.page-header .header-nav .nav-logo{
+  height: 80px;
+  line-height: 110px;
+}
+.page-header .header-nav .logo-description{
+  padding-left: 10px;
+}
+
+.page-header .nav-list a{
+  color: rgba(46,47,85,1);
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0 20px;
+  font-family: monospace;
+  font-weight: 600;
+}
+.page-header .nav-list a:last-child{
+  padding-right: 0;
+}
