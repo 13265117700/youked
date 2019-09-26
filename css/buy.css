@@ -1,7 +1,7 @@
 .page-mainer{
   position: relative;
 }
-.mainer-background-left{
+/* .mainer-background-left{
   background: url("./../img/buy_Background_left.png") no-repeat;
   width: 100px;
   height: 521px;
@@ -19,37 +19,61 @@
   right: 0;
   top: 46%;
   border-top-left-radius: 100px;
+} */
+
+.page-mainer::after{
+  content: '';
+  background: url(./../img/buy_Background_left.png) no-repeat;
+  width: 100px;
+  height: 521px;
+  position:absolute;
+  left: 0;
+  top: 40%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 70px;
+}
+.page-mainer::before{
+  content: '';
+  background: url(./../img/buy_Background_right.png) no-repeat;
+  width: 100px;
+  height: 521px;
+  position:absolute;
+  right: 0;
+  top: 46%;
+  border-top-left-radius: 100px;
 }
 
+
+
 /* .research-section */
-.supplier-section{
+.banner-section{
   display: flex;
   justify-content: space-around;
   padding-top: 63px;
   width: 1200px;
   margin: 0 auto;
 }
-.supplier-section .supplier-content{
+.banner-section .banner-content{
   display: flex;
   flex-direction:column;
   width: 500px;
 }
-.supplier-section .supplier-title{
+.banner-section .banner-title{
   font-size: 46px;
   color: rgba(46,47,85,1);
   font-weight: 600;
 }
-.supplier-section .supplier-description{
+.banner-section .banner-description{
   font-size:22px;
   color: rgba(46,47,85,1);
   padding: 27px 0;
 }
-.supplier-section .supplier-text{
+.banner-section .banner-text{
   font-size: 20px;
   color: #999999;
   line-height: 34px;
 }
-.supplier-section .supplier-img{
+.banner-section .banner-img{
   width: 510px;
   height: 420px;
 }
@@ -201,12 +225,17 @@
 
 
 /* .banner-section */
-.banner-section {
+/* .expect-section {
   width: 1400px;
   margin: 0 auto;
 }
-.banner-section .banner-img{
+.expect-section .expect-img{
   width: 100%;
+} */
+.expect-section {
+  background: url(./../img/index_banner.png) no-repeat center;
+  height: 250px;
+  background-color: #394bcd;
 }
 
 

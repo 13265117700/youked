@@ -1,31 +1,31 @@
-.specification-section{
+.banner-section{
   display: flex;
   justify-content: space-around;
   padding-top: 63px;
   width: 1200px;
   margin: 0 auto;
 }
-.specification-section .specification-content{
+.banner-section .banner-content{
   display: flex;
   flex-direction:column;
   width: 500px;
 }
-.specification-section .specification-title{
+.banner-section .banner-title{
   font-size: 46px;
   color: rgba(46,47,85,1);
   font-weight: 600;
 }
-.specification-section .specification-description{
+.banner-section .banner-description{
   font-size:22px;
   color: rgba(46,47,85,1);
   padding: 27px 0;
 }
-.specification-section .specification-text{
+.banner-section .banner-text{
   font-size: 20px;
   color: #999999;
   line-height: 34px;
 }
-.specification-section .specification-img{
+.banner-section .banner-img{
   width: 510px;
   height: 420px;
 }
@@ -142,13 +142,19 @@
 
 
 /* .banner-section */
-.banner-section {
+/* .expect-section {
   width: 1400px;
   margin: 0 auto;
 }
-.banner-section .banner-img{
+.expect-section .expect-img{
   width: 100%;
+} */
+.expect-section {
+  background: url(./../img/index_banner.png) no-repeat center;
+  height: 250px;
+  background-color: #394bcd;
 }
+
 
 
 /* .case-section */
